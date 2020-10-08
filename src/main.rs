@@ -15,5 +15,6 @@ fn main() {
 
     state.add_loose_files();
     state.find_response_file();
-    dbg!(&state.args);
+
+    sdl2::hint::set("SDL_HINT_NO_SIGNAL_HANDLERS", "1");
 }
