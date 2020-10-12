@@ -104,3 +104,11 @@ impl IwadName for String {
         unreachable!()
     }
 }
+
+impl crate::state::State {
+    pub fn find_iwad(&mut self) -> String {
+        if let Some(iwad_parm) = self.check_parm_with_args("--iwad", 1) {
+            self.iwad_file = self.args[iwad_parm + 1].clone();
+        }
+    }
+}

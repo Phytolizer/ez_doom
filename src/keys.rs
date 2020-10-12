@@ -1,0 +1,59 @@
+pub const RIGHTARROW: i32 = 0xae;
+pub const LEFTARROW: i32 = 0xac;
+pub const UPARROW: i32 = 0xad;
+pub const DOWNARROW: i32 = 0xaf;
+pub const ESCAPE: i32 = 27;
+pub const ENTER: i32 = 13;
+pub const TAB: i32 = 9;
+pub const F1: i32 = 0x80 + 0x3b;
+pub const F2: i32 = 0x80 + 0x3c;
+pub const F3: i32 = 0x80 + 0x3d;
+pub const F4: i32 = 0x80 + 0x3e;
+pub const F5: i32 = 0x80 + 0x3f;
+pub const F6: i32 = 0x80 + 0x40;
+pub const F7: i32 = 0x80 + 0x41;
+pub const F8: i32 = 0x80 + 0x42;
+pub const F9: i32 = 0x80 + 0x43;
+pub const F10: i32 = 0x80 + 0x44;
+pub const F11: i32 = 0x80 + 0x57;
+pub const F12: i32 = 0x80 + 0x58;
+
+pub const BACKSPACE: i32 = 0x7f;
+pub const PAUSE: i32 = 0xff;
+
+pub const EQUALS: i32 = 0x3d;
+pub const MINUS: i32 = 0x2d;
+
+pub const RSHIFT: i32 = 0x80 + 0x36;
+pub const RCTRL: i32 = 0x80 + 0x1d;
+pub const RALT: i32 = 0x80 + 0x38;
+
+pub const LALT: i32 = RALT;
+
+pub const CAPSLOCK: i32 = 0x80 + 0x3a;
+pub const NUMLOCK: i32 = 0x80 + 0x45;
+pub const SCRLCK: i32 = 0x80 + 0x46;
+pub const PRTSCR: i32 = 0x80 + 0x59;
+pub const HOME: i32 = 0x80 + 0x47;
+pub const END: i32 = 0x80 + 0x4f;
+pub const PGUP: i32 = 0x80 + 0x49;
+pub const PGDN: i32 = 0x80 + 0x51;
+pub const INS: i32 = 0x80 + 0x52;
+pub const DEL: i32 = 0x80 + 0x53;
+pub const KP_0: i32 = INS;
+pub const KP_1: i32 = END;
+pub const KP_2: i32 = DOWNARROW;
+pub const KP_3: i32 = PGDN;
+pub const KP_4: i32 = LEFTARROW;
+pub const KP_5: i32 = 0x80 + 0x4c;
+pub const KP_6: i32 = RIGHTARROW;
+pub const KP_7: i32 = HOME;
+pub const KP_8: i32 = UPARROW;
+pub const KP_9: i32 = PGUP;
+pub const KP_DIVIDE: i32 = '/' as i32;
+pub const KP_PLUS: i32 = '+' as i32;
+pub const KP_MINUS: i32 = '-' as i32;
+pub const KP_MULTIPLY: i32 = '*' as i32;
+pub const KP_PERIOD: i32 = 0;
+pub const KP_EQUALS: i32 = EQUALS;
+pub const KP_ENTER: i32 = ENTER;
